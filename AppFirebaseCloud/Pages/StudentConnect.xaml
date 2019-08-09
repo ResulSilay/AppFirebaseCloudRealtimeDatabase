@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="AppFirebaseCloud.Pages.StudentConnect"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:AppFirebaseCloud.Pages"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="StudentConnect"
+    Width="auto"
+    Height="auto"
+    d:DesignHeight="450"
+    Background="#FFCB2D"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Image
+            Height="134"
+            Margin="0,90,0,226"
+            VerticalAlignment="Center"
+            Source="/Resources/fireabase.png"
+            Stretch="Uniform" />
+        <Label
+            Name="lblConnecStatus"
+            Height="42"
+            Margin="65,246,65,162"
+            VerticalAlignment="Center"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Background="#FFC106"
+            BorderBrush="#F4B800"
+            BorderThickness="1"
+            Content="----"
+            FontSize="15"
+            Style="{StaticResource LabelRadius}" />
+    </Grid>
+</Page>
