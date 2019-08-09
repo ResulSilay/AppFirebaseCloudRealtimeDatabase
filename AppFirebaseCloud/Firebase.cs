@@ -16,8 +16,8 @@ namespace AppFirebaseCloud
     {
         IFirebaseConfig config = new FirebaseConfig
         {
-            AuthSecret = "Qy24zLL1FGhjBtxvTTIWl2cwHjC8DbgNfW2COR4M",
-            BasePath = "https://test-ea548.firebaseio.com/"
+            AuthSecret = "",
+            BasePath = "https://test.firebaseio.com/"
         };
 
         IFirebaseClient client;
